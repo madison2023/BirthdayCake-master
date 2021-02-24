@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //change num candles
         SeekBar candlesNum = findViewById(R.id.seekBar);
         candlesNum.setOnSeekBarChangeListener(cakeController);
+        cakeView.setOnTouchListener(cakeController);
 
     }
 
@@ -35,5 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("button", "Goodbye");
         finishAffinity();
     }
+
+
 
 }
