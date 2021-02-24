@@ -148,7 +148,7 @@ public class CakeView extends SurfaceView {
 //        drawCandle(canvas, cakeLeft + 2*(cakeWidth/3) - candleWidth/2, cakeTop);
         if (myCakeModel.balloonExist == true) {
             drawBalloon(canvas, myCakeModel.balloonCx, myCakeModel.balloonCy);
-            canvas.drawText("("+ myCakeModel.x + ", " + myCakeModel.y + ")", 1500, 500, coordinatePaint);
+            canvas.drawText("("+ myCakeModel.balloonCx + ", " + myCakeModel.balloonCy + ")", 1500, 500, coordinatePaint);
         }
 
     }//onDraw
