@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         //change num candles
         SeekBar candlesNum = findViewById(R.id.seekBar);
         candlesNum.setOnSeekBarChangeListener(cakeController);
+        //draw balloon
+        cakeView.setOnTouchListener(cakeController);
 
     }
 
