@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //draw balloon
         cakeView.setOnTouchListener(cakeController);
 
+
     }
 
     public void goodbye(View button) {
@@ -37,5 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("button", "Goodbye");
         finishAffinity();
     }
+
+
 
 }
